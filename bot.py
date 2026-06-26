@@ -18,7 +18,7 @@ client = tweepy.Client(
     access_token=X_ACCESS_TOKEN, access_token_secret=X_ACCESS_TOKEN_SECRET
 )
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 # Takip edilecek küresel haber kaynakları (RSS)
 RSS_FEEDS = [
